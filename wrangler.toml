@@ -1,0 +1,15 @@
+name = "src"
+main = "dist/worker.js"
+compatibility_date = "2022-10-01"
+node_compat = true
+kv_namespaces = [
+{ binding = "ESTATE", id = "d814d9829f9e447e8d631fed005adf02", preview_id = "e8f8b3233e07419297580d9995b506a1" }
+]
+
+[vars]
+SECRET_PATH = '/telegram-webhook'
+BOT_TOKEN = ''
+WEBHOOK_URL = ''
+
+[triggers]
+crons = [ "* * * * *" ]
